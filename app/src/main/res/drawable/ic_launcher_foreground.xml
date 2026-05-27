@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer clock alarm ear left -->
+    <path
+        android:fillColor="#FFFF9800"
+        android:pathData="M24,24L12,36c-2,2 -2,5 0,7s5,2 7,0l12,-12z" />
+        
+    <!-- Outer clock alarm ear right -->
+    <path
+        android:fillColor="#FFFF9800"
+        android:pathData="M84,24L96,36c2,2 2,5 0,7s-5,2 -7,0l-12,-12z" />
+
+    <!-- Clock body circle -->
+    <path
+        android:fillColor="#FFFF9800"
+        android:pathData="M54,16C31.9,16 14,33.9 14,56s17.9,40 40,40s40,-17.9 40,-40S76.1,16 54,16z" />
+        
+    <!-- Inner clock white disk -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,22C35.2,22 20,37.2 20,56s15.2,34 34,34s34,-15.2 34,-34S72.8,22 54,22z" />
+        
+    <!-- Center QR stylized eye box top-left -->
+    <path
+        android:fillColor="#0C0F16"
+        android:pathData="M32,38h12v12h-12z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M35,41h6v6h-6z" />
+    <path
+        android:fillColor="#0C0F16"
+        android:pathData="M37,43h2v2h-2z" />
+        
+    <!-- Center QR stylized eye box top-right -->
+    <path
+        android:fillColor="#0C0F16"
+        android:pathData="M64,38h12v12h-12z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M67,41h6v6h-6z" />
+    <path
+        android:fillColor="#0C0F16"
+        android:pathData="M69,43h2v2h-2z" />
+
+    <!-- Center QR stylized eye box bottom-left -->
+    <path
+        android:fillColor="#0C0F16"
+        android:pathData="M32,62h12v12h-12z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M35,65h6v6h-6z" />
+    <path
+        android:fillColor="#0C0F16"
+        android:pathData="M37,67h2v2h-2z" />
+
+    <!-- Random code-looking bits inside QR clock -->
+    <path
+        android:fillColor="#0C0F16"
+        android:pathData="M64,62h4v4h-4z M72,62h4v4h-4z M64,70h8v4h-8z M72,66h4v4h-4z" />
+
+</vector>
